@@ -1,22 +1,21 @@
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-import 'firebase/auth'
+import firebase from "firebase/app";
+import "firebase/firestore";
+import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDCeOytuIxNGchrGq4CrZq4cpohiIX9uYg",
-  authDomain: "testing-123-c16fc.firebaseapp.com",
-  projectId: "testing-123-c16fc",
-  storageBucket: "testing-123-c16fc.appspot.com",
-  messagingSenderId: "934001709223",
-  appId: "1:934001709223:web:3a1ce8022d26e440b30b82",
-  measurementId: "G-3L5DFDF70R"
-}
+  apiKey: "AIzaSyA_uAER7a-8xgtf4SfXSHSu-n99JT7knmA",
+  authDomain: "financeapp-b1301.firebaseapp.com",
+  projectId: "financeapp-b1301",
+  storageBucket: "financeapp-b1301.appspot.com",
+  messagingSenderId: "381710431502",
+  appId: "1:381710431502:web:a4cbd1fb080af15d53535f",
+};
 
 // init firebase
-firebase.initializeApp(firebaseConfig)
+firebase.initializeApp(firebaseConfig);
 
 // init services
-const projectFirestore = firebase.firestore()
-const projectAuth = firebase.auth()
+const projectFirestore = firebase.firestore();
+const projectAuth = firebase.auth();
 
-export { projectFirestore, projectAuth }
+export { projectFirestore, projectAuth };
